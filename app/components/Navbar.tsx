@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../public/images/Mich_0ry.png";
-// import { ThemeToggle } from "@/app/themeToggle";
+import { ThemeToggle } from "../libs/theme_toggle";
 
 export default function Navbar() {
 
@@ -44,7 +44,7 @@ export default function Navbar() {
             </li>
           </ul>
         </nav>
-        {/* <ThemeToggle/> */}
+        <ThemeToggle/>
       </div>
     </header>
   );
