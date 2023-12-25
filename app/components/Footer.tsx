@@ -25,7 +25,7 @@ export default function Footer() {
              />
             </div>
 
-            <div className="flex flex-col items-center md:flex-row md:order-1 md:mt-0 mt-4 md:text-right">
+            <div className="flex flex-col items-center md:flex-row md:order-1 md:mt-0 mt-4 md:w-auto w-full">
               <small className="text-center duration-200 font-mono">
                All rights reserved &copy; {new Date().getFullYear()}
              </small>
