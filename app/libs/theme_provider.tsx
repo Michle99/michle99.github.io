@@ -25,8 +25,8 @@ export default function Provider({children}: Props) {
   }
 
   return (
-    <ChakraProvider >
+    <ThemeProvider enableSystem={true} attribute="class">
       {children}
-    </ChakraProvider>
+    </ThemeProvider>
   );
 }
