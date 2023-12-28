@@ -1,6 +1,7 @@
 "use client";
 
 import { ThemeProvider } from "next-themes";
+import { ChakraProvider } from "@chakra-ui/react";
 import React, { useState, useEffect } from "react";
 
 type Props = {
@@ -24,8 +25,8 @@ export default function Provider({children}: Props) {
   }
 
   return (
-    <ThemeProvider enableSystem={true} attribute="class">
+    <ChakraProvider >
       {children}
-    </ThemeProvider>
+    </ChakraProvider>
   );
 }
